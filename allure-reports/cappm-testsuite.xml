@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621402068329' stop='1621402109955'>
+    <name>CAPPM Tests</name>
+    <title>CAPPM Tests</title>
+    <test-cases>
+        <test-case start='1621402068330' status='passed' stop='1621402096649'>
+            <name>Verify announcement visible after refresh when option is unchecked</name>
+            <title>Verify announcement visible after refresh when option is unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621402091590' status='passed' stop='1621402091590'>
+                    <name>Closing the announcement</name>
+                    <title>Closing the announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402091665' status='passed' stop='1621402091665'>
+                    <name>Closing the announcement</name>
+                    <title>Closing the announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402091713' status='passed' stop='1621402091713'>
+                    <name>Refreshing page</name>
+                    <title>Refreshing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402096447' status='passed' stop='1621402096447'>
+                    <name>Closing the announcement</name>
+                    <title>Closing the announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402096485' status='passed' stop='1621402096485'>
+                    <name>Closing the announcement after refresh</name>
+                    <title>Closing the announcement after refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='055c44d0-1768-49e3-abde-821f62e765cc-attachment.png' type='image/png' size='35646'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621402096649' status='passed' stop='1621402109955'>
+            <name>Check validation icon position</name>
+            <title>Check validation icon position</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621402096785' status='passed' stop='1621402096785'>
+                    <name>Navigating to CAPPM</name>
+                    <title>Navigating to CAPPM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402102942' status='passed' stop='1621402102942'>
+                    <name>Closing the announcement</name>
+                    <title>Closing the announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402102978' status='passed' stop='1621402102978'>
+                    <name>Verifying announcement</name>
+                    <title>Verifying announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402107782' status='passed' stop='1621402107782'>
+                    <name>Closing the announcement</name>
+                    <title>Closing the announcement</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1621402109817' status='passed' stop='1621402109817'>
+                    <name>Announcement present</name>
+                    <title>Announcement present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6988c2e8-d435-4339-9d6d-1a1e6db46253-attachment.png' type='image/png' size='35514'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
